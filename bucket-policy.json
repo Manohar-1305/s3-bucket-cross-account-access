@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowDevAccount",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::787047727908:user/developer-access"
+      },
+      "Action": "s3:*",
+      "Resource": [
+        "arn:aws:s3:::dev-image507",
+        "arn:aws:s3:::dev-image507/*"
+      ]
+    }
+  ]
+}
