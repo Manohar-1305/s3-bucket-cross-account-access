@@ -13,7 +13,7 @@ This repository contains the implementation files and commands used in the compl
 
 A few months ago, our organization separated workloads into multiple AWS accounts to improve security and management. The production environment was hosted in a dedicated AWS account, while developers worked from a separate development account.
 
-The production team stored important application images, deployment artifacts, and backup files inside an Amazon S3 bucket named:
+The development team regularly built application images, deployment packages, and CI/CD artifacts that needed to be consumed by production workloads. To centralize and securely store these files, the production account maintained an Amazon S3 bucket named:
 
 ```bash
 dev-images
