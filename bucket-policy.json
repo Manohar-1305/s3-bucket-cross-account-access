@@ -5,7 +5,7 @@
       "Sid": "AllowDevAccount",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::787047727908:user/developer-access"
+        "AWS": "arn:aws:iam::824184071604:user/developer-access"
       },
       "Action": "s3:*",
       "Resource": [
