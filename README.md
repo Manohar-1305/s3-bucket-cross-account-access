@@ -1,5 +1,5 @@
 # Secure Cross-Account Amazon S3 Access Between AWS Accounts — Complete Step-by-Step Guide
-
+![Cross Account S3 Access](thumbnail.png)
 ## Introduction
 
 A few months ago, our organization separated workloads into multiple AWS accounts to improve security and management. The production environment was hosted in a dedicated AWS account, while developers worked from a separate development account.
